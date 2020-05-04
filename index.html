@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Κρούσεις_1_Θερινά </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,charset=utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <script type=" text/x-mathjax-config ">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'>
+</script>
+</head>
+<body>  
+   
+   <div class="quiz-home-box custom-box show">
+       <h4>Έχετε 20 δευτερόλεπτα για καθεμία από τις 10 ερωτήσεις.</h4>
+       <button type="button" class="start-quiz-btn btn">Ξεκινήστε</button>
+   </div>
+
+   <div class="quiz-box custom-box">
+       <div class="stats">
+           <div class="quiz-time">
+               <div class="remaining-time"></div>
+               <span class="time-up-text">Τελος χρονου</span>
+           </div>
+           <div class="score-board">
+              <span class="score-text">score:</span> 
+              <span class="correct-answers"></span>
+           </div>
+       </div>
+       <div class="question-box">
+           <div class="current-question-num">
+            
+           </div>
+           <div class="question-text">
+             
+           </div>
+       </div>
+       <div class="option-box">
+           
+       </div>
+       <div class="answer-description">
+           
+       </div>
+       <div class="next-question">
+          <button type="button" class="next-question-btn btn">Επόμενη</button>
+          <button type="button" class="see-result-btn btn">Αποτελέσματα</button>
+       </div>
+
+   </div>
+    
+    <div class="quiz-over-box custom-box">
+        <h1>Αποτελέσματα</h1>
+        <h4>Σύνολο ερωτήσεων: <span class="total-questions"></span></h4>
+        <h4>Απαντήθηκαν: <span class="total-attemp"></span></h4>
+        <h4>Σωστές: <span class="total-correct"></span></h4>
+        <h4>Λάθος: <span class="total-wrong"></span></h4>
+        <h4>Ποσοστό επιτυχίας: <span class="percentage"></span></h4>
+        <button type="button" class="start-again-quiz-btn btn">Ξανακάντε το quiz</button>
+        <button type="button" class="go-home-btn btn">Αρχική</button>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
